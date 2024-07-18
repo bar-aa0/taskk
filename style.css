@@ -1,0 +1,185 @@
+
+.section {
+    min-height: 100vh;
+    background-color: rgba(203, 198, 198, 0.945);
+}
+
+.containerr {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    padding-top: 85px;
+    min-height: calc(100vh - 85px);
+    justify-content: space-between;
+}
+
+.containerr .text h2 {
+    font-size: 40px;
+    color: black;
+}
+
+.containerr .text h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: green;
+    margin-top: 8px;
+}
+
+.containerr .text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: 24px 0 40px;
+    max-width: 70%;
+}
+
+.containerr .buttonn {
+    display: flex;
+    gap: 24px;
+}
+
+.containerr .buttonn .button {
+    padding: 2px 2px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    color: rgb(212, 224, 212);
+    background-color: green;
+    font-size: 18px;
+    font-weight: 600;
+}
+.containerr .image {
+    max-width: 50%;
+}
+
+.containerr .image img {
+    width: 100%;
+}
+.title {
+    text-align: center;
+}
+    .gallery {
+        padding: 60px 20px 100px;
+    }
+    
+    .gallery .galleryy {
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .galleryy .items {
+        
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    
+    .gallery .galleryy img {
+        width: 40%;
+        border-radius: 8px;
+    
+    }
+    .why_us {
+        
+        padding: 40px 20px 10px;
+    }
+    .titlee{
+        text-align: center;
+    }
+    .why_us .why_container {
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .why_container .why img {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    
+    .why_container .why {
+        width: calc(100% / 3 - 100px);
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .why{
+        border: 2px solid  transparent;
+
+    }
+    .why .text {
+        text-align: center;
+    }
+    
+    .why .text h3 {
+        margin: 20px 0;
+        font-size: 22px;
+    }
+    
+    .why .text p {
+        font-size: 17px;
+    }
+    
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    padding-top: 85px;
+background-color: white;  
+}
+
+.container .text h2 {
+    font-size: 40px;
+    color: black;
+}
+
+.container .text h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: green;
+    margin-top: 8px;
+}
+
+.container .text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: 24px 0 40px;
+    max-width: 70%;
+    
+}
+
+.container .buttonn {
+    display: flex;
+    gap: 24px;
+}
+
+.container .buttonn .button {
+    padding: 2px 2px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    color: white;
+    background-color: green;
+    font-size: 18px;
+    font-weight: 600;
+}
+.container .image {
+    max-width: 50%;
+}
+
+.container .image img {
+    width: 100%;
+    text-align: left;
+}
+   
